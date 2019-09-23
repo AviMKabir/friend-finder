@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Poppins|Raleway&display=swap" rel="stylesheet">    <link rel="stylesheet" type="text/css" href="/style-2.css">
 
 </head>
 
@@ -17,14 +17,13 @@
     <div class="container">
 
         <div class="jumbotron">
-            <h1 class="text-center"><i class="fa fa-female"></i> Friend Finder <i class="fa fa-male"></i></h1>
+            <h1 class="text-center"><i class="fa fa-heart"> </i> friend finder <i class="fa fa-heart"> </i>  </h1>
             <hr>
-            <h2 id="jumbo_h2" class="text-center">Let's get started - Fill out the survey</h2>
+            <p id="jumbo_h2" class="text-center subtext">let's get started - fill out the survey</p>
             <br>
 
             <div class="text-center">
-                <a href="/"><button type="button" class="btn btn-lg btn-primary"><span
-                            class="glyphicon glyphicon-home"></span> Home</button></a>
+                <a href="/"><button type="button" class="btn btn-lg btn-danger"> home</button></a>
             </div>
         </div>
         <div class="row">
@@ -33,132 +32,133 @@
                 <!-- Survey Page -->
                 <div class="panel panel-default">
 
-                    <div class="panel-heading">
-                        <h3 class="panel-title"><strong>Friend Finder<strong></h3>
-                    </div>
+                
 
                     <div class="panel-body">
                         <form role="form">
 
-                            <h3><strong>About You</strong></h3>
-                            <h3>Name (Required)</h3>
+                            <h3 class= "text-center">about you</h3>
+                            <hr>
+
+                            <h3>name (required)</h3>
                             <input type="text" name="" id="name" class="form-control" required>
 
-                            <h3>Link to Photo (Required)</h3>
+                            <h3>photo link (required)</h3>
                             <input type="text" name="" id="photo" class="form-control" required>
                             <hr>
 
-                            <h3><strong>Survey Questions</strong></h3>
+                            <h3 class= "text-center">questions</h3>
                             <hr>
 
-                            <h3>You want a friend who is always down to jam some music.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q1">
+                            <h3>you want a friend who is always down to jam some music.</h3>
+                            <select data-placeholder="" class="form-control" id="q1">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
 
-                            <h3>Being a good person is a must.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q2">
+                            <h3>being a good person is a must.</h3>
+                            <select data-placeholder="" class="form-control" id="q2">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
 
-                            <h3>You like joking around.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q3">
+                            <h3>you like joking around.</h3>
+                            <select data-placeholder="" class="form-control" id="q3">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
 
-                            <h3>You like going on adventures.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q4">
+                            <h3>you like going on adventures.</h3>
+                            <select data-placeholder="" class="form-control" id="q4">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
 
-                            <h3>You ike LOUD music.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q5">
+                            <h3>you like LOUD music.</h3>
+                            <select data-placeholder="" class="form-control" id="q5">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
-                            <h3>You want a friend who has a huge mind</h3>
-                            <select data-placeholder="" class="chosen-select" id="q9">
+                            <h3>you want a friend who has a huge mind</h3>
+                            <select data-placeholder="" class="form-control" id="q9">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
-                            <h3>You like friends that argue.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q10">
+                            <h3>you like friends that argue.</h3>
+                            <select data-placeholder="" class="form-control" id="q10">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
-                            <h3>You need a friend who just loves to climb a mountain.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q6">
+                            <h3>you need a friend who just loves to climb a mountain.</h3>
+                            <select data-placeholder="" class="form-control" id="q6">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
-                            <h3>The fair, you always gotta go.</h3>
-                            <select data-placeholder="" class="chosen-select" id="q7">
+                            <h3>the fair, you always gotta go.</h3>
+                            <select data-placeholder="" class="form-control" id="q7">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
-                            <h3>Church?</h3>
-                            <select data-placeholder="" class="chosen-select" id="q8">
+                            <h3>church?</h3>
+                            <select data-placeholder="" class="form-control" id="q8">
                                 <option value=""></option>
-                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option selected="selected" value="1">1 (strongly disagree)</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
+                                <option value="5">5 (strongly agree)</option>
                             </select>
 
-                            <br>
-                            <br>
+                <br>
+                <div class="text-center">
+                            <button type="submit" id="submit" class="btn btn-danger">submit</button>
+                </div>
 
-                            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
 
@@ -173,7 +173,7 @@
                 <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h2 class="modal-title text-center"><strong>Your most compatible friend is...</strong></h2>
+                        <h2 class="modal-title text-center"><strong>your most compatible friend is...</strong></h2>
                     </div>
                     <div class="modal-body">
                         <h2 class="text-center" id="matchName"></h2>
@@ -185,10 +185,10 @@
 
                     <div class="modal-footer">
                         <a href="/"> <button type="button" class="btn btn-default" id="homeModal"
-                                data-dismiss="modal">Home</button> </a>
+                                data-dismiss="modal">home</button> </a>
 
                         <button type="button" class="btn btn-default" id="closeModal"
-                            data-dismiss="modal">Close</button>
+                            data-dismiss="modal">close</button>
 
 
                     </div>
@@ -199,7 +199,7 @@
 
         <footer class="footer">
             <div class="container">
-                <p class="bold"><a href="/api/friends">API Friends Link</a>
+                <p><a href="/api/friends">Friends API</a>
             </div>
         </footer>
 
@@ -237,8 +237,8 @@
                     $("#photo").val("");
                 });
             } else {
-                $(".modal-title").text("Missing required information");
-                $(".modal-body").html("<h3>Please complete the form before submitting</h3>");
+                $(".modal-title").text("missing required information");
+                $(".modal-body").html("<h3>please complete the form </h3>");
                 $("#resultsModal").modal('toggle');
             }
             return false;

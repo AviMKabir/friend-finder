@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(rgb(255, 224, 228), rgb(253, 174, 180));
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center center;
+}
+
+.jumbotron {
+
+  background: transparent !important;
+  
+  }
+
+h1,h2,h3 {
+
+  font-family: 'Nunito', sans-serif;
+
+  color: #222;
+
+}
+
+h3 {
+
+margin-top: 4px;
+
+
+}
+
+.subtext {
+  font-family: 'Raleway', sans-serif;
+
+  color: #ff7879;
+}
+
+.btn-danger {
+  font-family: Raleway-SemiBold;
+  font-size: 20px;
+  color: rgba(217, 83, 78, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(217, 83, 78, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-danger:hover {
+  color: #FFF;
+  background: rgba(217, 83, 78, 0.75);
+  border: 2px solid rgba(217, 83, 78, 0.75);
+}
+
+.fa-heart {
+
+  color: #ff7879;
+
+}
+
+a:link, a {
+  color: #ff7879;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: #ff7879;
+}
+
+.modal-backdrop {
+  background-color:  #ff7879;;
+}
